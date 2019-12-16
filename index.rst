@@ -6,7 +6,7 @@ The vendor for the TMA is Tekniker. They will be providing a  PDF documents for 
 .. toctree::
     :maxdepth: 1
 
-    clearing_interlocks
+    safety_interlocks
 
 .. .. rubric:: References
 

@@ -7,6 +7,8 @@ The vendor for the TMA is Tekniker. They will be providing a  PDF documents for 
     :maxdepth: 1
 
     safety_interlocks
+    ccw_aux_cabinet
+    ccw_operation
 
 .. .. rubric:: References
 

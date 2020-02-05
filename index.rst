@@ -9,6 +9,7 @@ The vendor for the TMA is Tekniker. They will be providing a  PDF documents for 
     acronyms
     ccw_aux_cabinet
     ccw_operation
+    master_server_list
     safety_interlocks
 
 .. .. rubric:: References

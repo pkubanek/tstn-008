@@ -11,6 +11,7 @@ The vendor for the TMA is Tekniker. They will be providing a  PDF documents for 
     ccw_operation
     master_server_list
     safety_interlocks
+    tma_simulation_configurations.rst
 
 .. .. rubric:: References
 

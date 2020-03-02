@@ -6,9 +6,12 @@ The vendor for the TMA is Tekniker. They will be providing a  PDF documents for 
 .. toctree::
     :maxdepth: 1
 
-    safety_interlocks
+    acronyms
     ccw_aux_cabinet
     ccw_operation
+    master_server_list
+    safety_interlocks
+    tma_simulation_configurations.rst
 
 .. .. rubric:: References
 

@@ -2,7 +2,7 @@
 TMA Simulation Configurations
 *****************************
 
-Here you will find sets of instructions that document the different configurations that are avilable. Each of this configurations test a certain functionality. In order of increasing complexity the following are the configurations available to the TMA software.
+Here you will find sets of instructions that document the different configurations that are avilable. Each of these configurations test a certain functionality. In order of increasing complexity the following are the configurations available to the TMA software.
 
 1. HMI NSV Simulation
 

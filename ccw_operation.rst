@@ -1,12 +1,11 @@
-*************
 CCW Operation
-*************
+=============
 
 Below you will find useful instructions for operating the CCW.
 
 
 Operating EUI
-=============
+-------------
 	1. Execute :ref:`powering-on-cabinet`
 	#. Open a terminal window.
 	#. Execute ``ulimit -s 100000``.

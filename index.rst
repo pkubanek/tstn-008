@@ -1,17 +1,19 @@
-
 Description
 ===========
 The vendor for the TMA is Tekniker. They will be providing a  PDF documents for operating the TMA. In an effort to have consistency across software documentation I will be transcibing the TMA documents onto this TMA Technote. 
 
-.. toctree::
-    :maxdepth: 1
+.. include:: acronyms.rst
 
-    acronyms
-    ccw_aux_cabinet
-    ccw_operation
-    master_server_list
-    safety_interlocks
-    tma_simulation_configurations.rst
+.. include:: ccw_aux_cabinet.rst
+
+.. include:: ccw_operation.rst
+
+.. include:: master_server_list.rst
+
+.. include:: safety_interlocks.rst
+
+.. include:: tma_simulation_configurations.rst
+
 
 .. .. rubric:: References
 

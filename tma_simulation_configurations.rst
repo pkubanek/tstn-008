@@ -29,3 +29,31 @@ The following instructions will help you understand and configure a simulation e
 	#. Do a global search for 192.168.209.10 and replace these with the IP address of the Windows machine running the NSV Simulator. In my case I will be replacing them with 192.168.1.11. At the time of writing this document there are 282 occurances when doing a global search and replace.
 
 	#. Well done! The EUI is now configured to operate with the NSV Simulator. Open HMI as you normally would [TODO LINK FOR OPENING THE EUI]
+
+Installation for the NSV Force shared 
+=====================================
+
+Installating PXI
+
+1) Install a git tool, I use source tree
+2) git pull the PXI software onto the windows machine
+3) Download Tekniker Labview Libraries by clinging https://gitlab.tekniker.es/aut/libraries/labview/labview
+4) Checkout branch LV_2018
+5) copy files in the local folder including the .git folder to Nationa Instruments/LabVIEW2019
+6) Select the preselected option that Labview asks to load
+7) Cancel when labview cannot find the HMI module
+8) Cancel when labview cannot find the DatabaseSettingsConfig.ctl
+9) Cancel when labview cannot find the Axis Data.ctl
+10) When labview asks to find FGV_BasicFGVAction.ctl find it my navigating to Program Files (x86)\National Instruments\LabVIEW 2019\templates\TeknikerTemplates\_controles
+
+The reason we have the HIL needs to be true when in simulation mode. And False when do real telescope control. 
+We need atleast another ethercat 
+
+Alberto will send tomorrow how ethernet ports we will need
+
+We now configure the PXI for proper ethernet connections
+
+"Deploy ethercat master to PXI" -> what this really means to do is
+
+we currently have 2 issues. We can't change the network to ethercat. -> We think this can be solved purchases 2 4 port cards that ALberto will send us. The second is that I do not have the correct drivers. Only install compilations tools,
+12 - 0
